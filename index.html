@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- primary meta tags -->
+  
+  <title>Download &raquo; Next Music</title>
+  <meta name="title" content="Next Music">
+  <meta name="description" content="Sachintha Lakshan's official website is being updated to provide visitors with the latest information, exciting features, and a user-friendly experience.">
+
+  <!-- favicon -->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/author.png">
+  <link rel="manifest" href="images/site.webmanifest">
+
+  <script defer src="https://kit.fontawesome.com/d5f232d1ec.js"></script>
+
+  <!-- font -->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chivo&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap">
+
+  <!-- css -->
+  
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<div class="box">
+  <form id="signup-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+  
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+  
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required pattern="[0-9]*"><br><br>
+  
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+  
+    <button type="submit">Sign Up</button>
+  </form>
+  
+  
+
+</div>
+<script>
+const form = document.getElementById('signup-form');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault(); // Prevent default form submission
+
+  const name = document.getElementById('name').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const phone = document.getElementById('phone').value.trim();
+  const password = document.getElementById('password').value.trim();
+
+  // Simulate form data processing (replace with your actual logic)
+  console.log("Processing form data:", name, email, phone, password);
+
+  // Optionally open another webpage after successful processing
+  const openSuccessPage = true; // Set to true to open another page
+
+  if (openSuccessPage) {
+    window.location.href = "https://api.whatsapp.com/send/?phone=+94764439530&text=Hi ,%0A%0AYour account registration with Next Music is successfully ! We're excited to welcome you to the community. Explore everything we have to offer, and if you have any questions, our friendly customer support team is here to help.%0A%0ADownload Next Music Now %0Ahttps%3A%2F%2Fsachiofficial.github.io%2Fmusic%0A%0ABest regards,%0AThe Next Music Team.🅶🅰🅶&type=phone_numberapp_absent=0"; // Replace with your target URL
+  }
+});
+
+  </script>
+  
+
+</body>
+</html>
