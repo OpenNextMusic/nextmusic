@@ -1,0 +1,97 @@
+body{
+
+    background-color: rgba(236,240,243,255);
+    color: rgba(43,27,40,255);
+
+}
+
+a {
+    text-decoration: none;
+  }
+  
+
+.box {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+    width: 80%;
+    height:630px;
+    padding: 25px;
+    background-color: #ecf0f3;
+    box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+    border-radius: 12px;
+    overflow: hidden;
+    
+  
+  }
+
+  h2{
+    font-family:"Bree Serif" ;
+    text-align: center;
+    font-size: 32px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+  
+  label {
+    font-weight: bold;
+    margin-left: 7%;
+    font-family: "Chivo";
+    
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] {
+
+    border: none;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgba(236,240,243,255);
+    box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+    outline: none; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90%;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: "Francois One";
+      
+  }
+
+  button {
+    width: 200px;
+    height: 50px;  
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+    color: #707070;
+    background:#e8ecf4;
+    border-radius: 70px;
+    padding: 10px 25px;
+    font-family: 'Rowdies';
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    outline: none; 
+    border: #d1d9e6;
+    box-shadow:  10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+    font-size: 20px;
+
+  }
+  
+  button:hover {
+    transform: translateY(-3px) rotateX(10deg);
+    outline: none; 
+
+  }
+  
